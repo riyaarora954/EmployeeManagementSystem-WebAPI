@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EMS.Common\EMS.Common.csproj" />
+    <ProjectReference Include="..\EMS.Contracts\EMS.Contracts.csproj" />
+    <ProjectReference Include="..\EMS.Model\EMS.Model.csproj" />
+  </ItemGroup>
+
+</Project>
