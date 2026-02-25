@@ -11,16 +11,15 @@ namespace EMS.ServiceLogic.Implementations
         {
             _databaseService = databaseService;
         }
-
         public EmployeeResponse GetEmployee()   
         {
-            var e = _databaseService.GetEmployee();
+            var employee = _databaseService.GetEmployee();
 
             return new EmployeeResponse
             {
-                EmployeeId = e.EmployeeId,
-                FullName = e.FullName,
-                Department = e.Department
+                EmployeeId = employee.EmployeeId,
+                FullName = employee.FullName,
+                Department = employee.Department
             };
         }
     }

@@ -1,8 +1,6 @@
 <Solution>
   <Project Path="EmployeeManagement/EMS.WebAPI.csproj" />
-  <Project Path="EMS.Common/EMS.Common.csproj" />
   <Project Path="EMS.Contracts/EMS.Contracts.csproj" />
   <Project Path="EMS.Model/EMS.Model.csproj" />
   <Project Path="EMS.ServiceLogic/EMS.ServiceLogic.csproj" />
-  <Project Path="EMS.UI/EMS.UI.csproj" />
 </Solution>
